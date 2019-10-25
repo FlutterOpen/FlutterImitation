@@ -1,16 +1,16 @@
 # flutter_imitation
+模仿现有开源项目，以学习为目的
 
-Imitation of open source project.
+# 合作形式
+|项目名 | 源码地址 | 开发目录 | 所在分支|
+| -- | --| --| --|
+|GankIO|https://github.com/lijinshanmx/flutter_gank |imitation/gank_io | developer_gank| 
+|模仿豆瓣| https://github.com/kaina404/FlutterDouBan|imitation/douban|developer_douban|
+|WanAndroid| https://github.com/Sky24n/flutter_wanandroid|Imitation/wan_android|developer_wandroid|
 
-## Getting Started
+# Git提交规范
+按照我们app的来
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 代码规范
+参考此博客： https://juejin.im/post/5ba8d8086fb9a05cdc498aa5 
+官网规范： https://dart.cn/guides/language/specifications/DartLangSpec-v2.2.pdf
