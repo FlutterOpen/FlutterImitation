@@ -6,7 +6,7 @@
 | -- | --| --| --|
 |GankIO|https://github.com/lijinshanmx/flutter_gank |imitation/gank_io | developer_gank| 
 |模仿豆瓣| https://github.com/kaina404/FlutterDouBan|imitation/douban|developer_douban|
-
+|模仿wandroid| https://github.com/FlutterOpen/fun_fluttern|imitation/wan_andnroid|developer_wandroid|
 # Git提交规范
 基本的git rebase模式
 # 代码规范
