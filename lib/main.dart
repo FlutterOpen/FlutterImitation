@@ -12,7 +12,9 @@ Map<String, Widget> pages = <String, Widget>{
   "Douban": DoubanHomePage().buildPage(null),
   "GankIO": GankIOHomePage().buildPage(null),
   "WanAndroid": WanAndroidHomePage().buildPage(null),
-  "Widgets": WidgetHomePage().buildPage(null),
+  "Movie": MovieMainPage().buildPage(null),
+  "Todo": TodoMainPage().buildPage(null),
+  "Comic": ComicMainPage().buildPage(null),
 };
 
 Route<BuildContext> navigatorToPage(Page page) {
