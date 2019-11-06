@@ -4,10 +4,12 @@
 # 合作形式
 |项目名 | 源码地址 | 开发目录 | 所在分支|
 | -- | --| --| --|
-|GankIO|https://github.com/lijinshanmx/flutter_gank |imitation/gank_io | developer_gank| 
-|模仿豆瓣| https://github.com/kaina404/FlutterDouBan|imitation/douban|developer_douban|
-|模仿wandroid| https://github.com/FlutterOpen/fun_fluttern|imitation/wan_andnroid|developer_wandroid|
-|模仿电影| https://github.com/Mayandev/morec|imitation/wan_andnroid|developer_move|
+|GankIO|https://github.com/lijinshanmx/flutter_gank |imitation/gank_io |gank| 
+|模仿豆瓣| https://github.com/kaina404/FlutterDouBan|imitation/douban|douban|
+|模仿wandroid| https://github.com/FlutterOpen/fun_fluttern|imitation/wan_andnroid|wandroid|
+|模仿电影| https://github.com/Mayandev/morec|imitation/movie |movie|
+|Todo| https://github.com/burhanrashid52/WhatTodo|imitation/todo|todo|
+|漫画|https://github.com/ZDfordream/FlutterTianYue|imitation/comic|comic|
 # Git提交规范
 基本的git rebase模式
 # 代码规范
