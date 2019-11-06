@@ -12,6 +12,8 @@
 |漫画|https://github.com/ZDfordream/FlutterTianYue|imitation/comic|comic| 6|
 # Git提交规范
 基本的git rebase模式
+![git 请求规范](./doc/git_commit.png)
+实例：如果你是基于gank分支，则自己需要创建一个类似feat/gank/niebin的分支开发，然后请求合并到gank分支
 # 代码规范
 参考此博客： https://juejin.im/post/5ba8d8086fb9a05cdc498aa5   
 官网规范： https://dart.cn/guides/language/specifications/DartLangSpec-v2.2.pdf
