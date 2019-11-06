@@ -5,24 +5,34 @@ import 'package:flutter_imitation/home/state.dart';
 Widget buildHomeView(
     HomeState state, Dispatch dispatch, ViewService viewService) {
   return Scaffold(
-    appBar: AppBar(
-      title: Text("Pozion Imitation"),
-    ),
-    body: ListView.separated(
+      appBar: AppBar(
+        title: Text("Pozion Imitation"),
+      ),
+      body: GridView.builder(
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            mainAxisSpacing: 0,
+            crossAxisSpacing: 0,
+            childAspectRatio: 0.9,
+            crossAxisCount: 2),
+        itemCount: state.values.length,
         itemBuilder: (context, index) => GestureDetector(
-            child: Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(state.values[index].first),
+          child: InkWell(
+            child: Card(
+              child: Center(
+                child: Text(
+                  state.values[index].first,
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.blue,
+                      fontWeight: FontWeight.w700),
+                ),
+              ),
             ),
             onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => state.values[index].second))),
-        separatorBuilder: (context, index) => GestureDetector(
-                child: Divider(
-              height: 1,
-              color: Colors.grey[400],
-            )),
-        itemCount: state.values.length),
-  );
+                    builder: (context) => state.values[index].second)),
+          ),
+        ),
+      ));
 }

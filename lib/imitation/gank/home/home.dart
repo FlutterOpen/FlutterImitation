@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_imitation/common/child_home/reducer.dart';
 import 'package:flutter_imitation/common/child_home/state.dart';
 import 'package:flutter_imitation/common/child_home/view.dart';
-import 'package:flutter_imitation/imitation/gank_io/class/class_index.dart';
-import 'package:flutter_imitation/imitation/gank_io/collection_index/collection_index.dart';
-import 'package:flutter_imitation/imitation/gank_io/girl/girl_index.dart';
-import 'package:flutter_imitation/imitation/gank_io/newest/newest_index.dart';
+import 'package:flutter_imitation/imitation/gank/class/class_index.dart';
+import 'package:flutter_imitation/imitation/gank/collection_index/collection_index.dart';
+import 'package:flutter_imitation/imitation/gank/girl/girl_index.dart';
+import 'package:flutter_imitation/imitation/gank/newest/newest_index.dart';
 import 'package:flutter_imitation/util/pair.dart';
 
 String _GANK_IO = "https://github.com/lijinshanmx/flutter_gank";
