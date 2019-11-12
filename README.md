@@ -6,7 +6,7 @@
 | -- | --| --| --| --|
 |GankIO|https://github.com/lijinshanmx/flutter_gank |imitation/gank |gank| 1 |
 |模仿豆瓣| https://github.com/kaina404/FlutterDouBan|imitation/douban|douban|2  |
-|模仿wandroid| https://github.com/FlutterOpen/fun_fluttern|imitation/wandnroid|wandroid|3|
+|模仿wandroid| https://github.com/FlutterOpen/fun_flutter|imitation/wandnroid|wandroid|3|
 |模仿电影| https://github.com/Mayandev/morec|imitation/movie |movie|4 |
 |Todo| https://github.com/burhanrashid52/WhatTodo|imitation/todo|todo| 5| 
 |漫画|https://github.com/ZDfordream/FlutterTianYue|imitation/comic|comic| 6|
